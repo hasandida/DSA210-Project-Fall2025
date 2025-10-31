@@ -4,7 +4,7 @@ NOTE: Information provided is tentitive and subject to change.
 
 ## 1. Project Description
 
-This project conducts a comprehensive analysis of League of Legends ranked game data to answer a central question: How does in-game factors contribute to chances of victory within a game? Which in-game factors are the most powerful predictors of a win?
+This project conducts a comprehensive analysis of League of Legends ranked game data to answer central questions: How do in-game factors contribute to chances of victory within a game? Which in-game factors are the most powerful predictors of a win?
 
 Players often debate the value of specific objectives such as `firstBlood` vs. `firstTower`, this project aims to move beyond single statistics. It uses a large dataset to build a machine learning model that weighs the collective importance of multiple factors such as; major and basic objectives, team composition, and economic advantages—to determine the anatomy of a winning game.
 
