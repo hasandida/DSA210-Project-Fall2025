@@ -6,7 +6,7 @@ NOTE: Information provided is tentitive and subject to change.
 
 This project conducts a comprehensive analysis of League of Legends ranked game data to answer central questions: How do in-game factors contribute to chances of victory within a game? Which in-game factors are the most powerful predictors of a win?
 
-Players often debate the value of specific objectives such as `firstBlood` vs. `firstTower`, this project aims to move beyond single statistics. It uses a large dataset to build a machine learning model that weighs the collective importance of multiple factors such as; major and basic objectives, team composition, and economic advantages—to determine the anatomy of a winning game.
+Players often debate the value of specific objectives such as `firstBlood` vs. `firstTower`, this project aims to move beyond single statistics. It aims to utilise a large dataset with the help of a machine learning model and weigh the importance of multiple factors such as; major and basic objectives, team composition, and economic advantages to determine the anatomy of a winning game.
 
 
 ## 2. Motivation
@@ -30,7 +30,7 @@ The project mainly relies on quantifying the value of in-game objectives. These 
 
 * **Baron Nashor:** The most powerful neutral monster. Killing it grants a temporary, powerful buff that helps the entire team push into the enemys base to win the game. The dataset tracks these objectives as `firstBaron` and `totalBaronKills`.
 * **Dragons:** A series of monsters that grant small but permanent statistical buff to the entire team. Collecting four dragons grants a "Dragon Soul" a very powerful, permanent buff. The dataset tracks these objectives as `firstDragon` and `totalDragonKills`.
-* **Rift Herald:** An early-game monster that can be summoned to charge at enemy towers, dealing massive damage and helping gain an early gold lead. The dataset tracks this objective as `firstRiftHerald`.
+* **Rift Herald:** An early game monster that can be summoned to charge at enemy towers, dealing massive damage and helping gain an early gold lead. The dataset tracks this objective as `firstRiftHerald`.
 
 #### Basic Objectives (Map Control & Milestones)
 
@@ -44,8 +44,8 @@ In Leage of Legends there are different classes for each champion. As part of ou
 * **Tank:** A durable, defensive champion that protects their team.
 * **Mage:** A champion who deals high magical damage from a distance.
 * **Assassin:** A champion designed to quickly eliminate a single high priority target.
-* **Marksman:** A ranged champion that deals high, sustained physical damage.
-* **Fighter:** A close-range brawler that balances both damage and durability.
+* **Marksman:** A ranged champion which deals high and sustained physical damage.
+* **Fighter:** A close range brawler which balances both damage and durability.
 
 
 ## 4. Datasets
